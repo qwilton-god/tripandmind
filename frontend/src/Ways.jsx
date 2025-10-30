@@ -1,5 +1,5 @@
 import React from 'react';
-import arrow from './images/arrow.svg'
+
 const Ways = () => {
   return (
     <div className="ways" id="ways">

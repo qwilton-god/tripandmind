@@ -1,5 +1,5 @@
 import React from 'react';
-import arrow from './images/arrow.svg'
+import arrow from './images/arrow.svg';
 const Review = () => {
   return (
     <div className="review" id="review">
@@ -19,7 +19,7 @@ const Review = () => {
             <span className="review-card-subtitle">Елена Иванова</span>
           </div>
           <div className="review-card-text">
-            <p className="review-card-text"> Пожалуй, это был самый<br></br> лучший отпуск в моей жизни…</p>
+            <p className="review-card-desc"> Пожалуй, это был самый<br></br> лучший отпуск в моей жизни…</p>
             <span className="review-card-arrow"><img src={arrow} alt="Arrow" /></span>
           </div>
         </div>
